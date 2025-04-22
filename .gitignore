@@ -1,0 +1,50 @@
+# Ignore Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+cv-nd/
+env/
+.venv/
+venv/
+
+# Ignore saved models or large files (adjust if needed)
+saved_models/*
+!saved_models/description.txt
+
+# Ignore data directories (can be re-downloaded or are too large)
+data/
+!data/test_frames_keypoints.csv
+!data/training_frames_keypoints.csv
+
+# Ignore output images and debug logs
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.log
+*.out
+
+# Ignore temporary files
+*.tmp
+*.swp
+.DS_Store
+*.bak
+
+# Ignore system files and metadata
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore pip log and installation files
+pip-log.txt
+
+# Ignore pyenv local version file if you prefer not to commit it
+.python-version
